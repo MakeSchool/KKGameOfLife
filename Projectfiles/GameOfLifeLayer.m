@@ -6,6 +6,7 @@
  */
 
 #import "GameOfLifeLayer.h"
+#import "CCDrawingPrimitives.h"
 
 @interface GameOfLifeLayer (PrivateMethods)
 @end
@@ -67,9 +68,6 @@ float priorY = 500;
 
 -(void) draw
 {
-    //enable an opengl setting to smooth the line once it is drawn
-    glEnable(GL_LINE_SMOOTH);
-    
     //set the color in RGB to draw the line with
     glColor4ub(0,0,0,255); //black
     
