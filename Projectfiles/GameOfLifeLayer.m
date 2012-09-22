@@ -68,14 +68,12 @@ float priorY = 500;
 
 -(void) draw
 {
-    //set the color in RGB to draw the line with
-    glColor4ub(0,0,0,255); //black
-    
     //draw rectangle
-    ccDrawSolidRect(ccp(0,0 + Y_OFF_SET), ccp(WIDTH_GAME, HEIGHT_GAME + Y_OFF_SET));
+    ccDrawSolidRect(ccp(0,0 + Y_OFF_SET), ccp(WIDTH_GAME, HEIGHT_GAME + Y_OFF_SET), ccc4f(0, 0, 0, 255));
     
     //draw row lines
-    glColor4ub(100,0,255,255);
+    //set the color in RGB to draw the lines with
+    ccDrawColor4B(100, 0, 255, 255);
     for(int row = 0; row < HEIGHT_GAME; row += CELL_WIDTH)
     {
         ccDrawLine(ccp(0, row + Y_OFF_SET), ccp(WIDTH_GAME, row + Y_OFF_SET));
@@ -95,18 +93,17 @@ float priorY = 500;
             NSNumber* num = [[grid objectAtIndex:row] objectAtIndex: col];
             if([num integerValue] == 1)
             {
-                ccDrawSolidRect(ccp(col * CELL_WIDTH, row * CELL_WIDTH + Y_OFF_SET), ccp(col * CELL_WIDTH + CELL_WIDTH, row * CELL_WIDTH + Y_OFF_SET + CELL_WIDTH));
+                ccDrawSolidRect(ccp(col * CELL_WIDTH, row * CELL_WIDTH + Y_OFF_SET), ccp(col * CELL_WIDTH + CELL_WIDTH, row * CELL_WIDTH + Y_OFF_SET + CELL_WIDTH), ccc4f(100/255.0, 0, 255/255.0, 255/255.0));
             }
         }
     }
     
     //draw button
-    glColor4ub(150,0,255,255);
-    ccDrawSolidRect(ccp(WIDTH_WINDOW / 2, HEIGHT_GAME + Y_OFF_SET), ccp(WIDTH_WINDOW, HEIGHT_WINDOW + Y_OFF_SET));
-    
+    //glColor4ub(150,0,255,255);
+    ccDrawSolidRect(ccp(WIDTH_WINDOW / 2, HEIGHT_GAME + Y_OFF_SET), ccp(WIDTH_WINDOW, HEIGHT_WINDOW + Y_OFF_SET), ccc4f(150/255.0, 0, 255/255.0, 255/255.0));
     //draw clear button
-    glColor4ub(50,0,225,255);
-    ccDrawSolidRect(ccp(0, HEIGHT_GAME + Y_OFF_SET), ccp(WIDTH_WINDOW / 2, HEIGHT_WINDOW + Y_OFF_SET));
+    //glColor4ub(50,0,225,255);
+    ccDrawSolidRect(ccp(0, HEIGHT_GAME + Y_OFF_SET), ccp(WIDTH_WINDOW / 2, HEIGHT_WINDOW + Y_OFF_SET),ccc4f(50/255.0, 0, 225/255.0, 255/255.0));
     
 }
 

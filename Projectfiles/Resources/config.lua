@@ -19,10 +19,6 @@ local config =
 		-- load first scene from a class with this name, or from a Lua script with this name with .lua appended
 		FirstSceneClassName = "GameOfLifeLayer",
 
-		-- set the director type, and the fallback in case the first isn't available
-		DirectorType = DirectorType.DisplayLink,
-		DirectorTypeFallback = DirectorType.NSTimer,
-
 		MaxFrameRate = 60,
 		DisplayFPS = YES,
 
@@ -42,15 +38,12 @@ local config =
 		EnableStatusBar = NO,
 
 		-- Orientation & Autorotation
-		DeviceOrientation = DeviceOrientation.Portrait,
-		AutorotationType = Autorotation.None,
-		ShouldAutorotateToLandscapeOrientations = NO,
-		ShouldAutorotateToPortraitOrientations = NO,
-		AllowAutorotateOnFirstAndSecondGenerationDevices = NO,
+		-- Kobold2D uses the supported orientations from the Target's Summary pane: http://cl.ly/2l132Z2f463H2O3r0M1O
+		-- (same as Info.plist key UISupportedInterfaceOrientations aka "Supported interface orientations")
 	
-		-- Ad setup
-		EnableAdBanner = NO,
-		PlaceBannerOnBottom = YES,
+		-- iAd setup
+		EnableAdBanner = YES,
+		PlaceBannerOnBottom = NO,
 		LoadOnlyPortraitBanners = NO,
 		LoadOnlyLandscapeBanners = NO,
 		AdProviders = "iAd, AdMob",	-- comma seperated list -> "iAd, AdMob" means: use iAd if available, otherwise AdMob
@@ -58,12 +51,20 @@ local config =
 		AdMobFirstAdDelay = 5,
 		AdMobPublisherID = "YOUR_ADMOB_PUBLISHER_ID", -- how to get an AdMob Publisher ID: http://developer.admob.com/wiki/PublisherSetup
 		AdMobTestMode = YES,
-	
+
 		-- Mac OS specific settings
 		AutoScale = NO,
 		AcceptsMouseMovedEvents = NO,
-		WindowFrame = RectMake(1024-640, 768-480, 640, 480),
 		EnableFullScreen = NO,
+	},
+	
+	-- you can create your own config sections using the same mechanism and use KKConfig to access the parameters
+	-- or use the KKConfig injectPropertiesFromKeyPath method
+	HelloWorldSettings =
+	{
+		HelloWorldString = "Hello Kobold2D!",
+		HelloWorldFontName = "Marker Felt",
+		HelloWorldFontSize = 50,
 	},
 }
 

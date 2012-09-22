@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32FA88917164EDD0057A319 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D32FA88717164EDD0057A319 /* fps_images-hd.png */; };
+		D32FA88A17164EDD0057A319 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D32FA88817164EDD0057A319 /* fps_images-ipadhd.png */; };
+		D32FA8A017164EE90057A319 /* CONTRIBUTING.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA88C17164EE90057A319 /* CONTRIBUTING.txt */; };
+		D32FA8A117164EE90057A319 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA88D17164EE90057A319 /* copyright.txt */; };
+		D32FA8A217164EE90057A319 /* FONTLOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA88E17164EE90057A319 /* FONTLOG.txt */; };
+		D32FA8A317164EE90057A319 /* LICENCE-FAQ.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA88F17164EE90057A319 /* LICENCE-FAQ.txt */; };
+		D32FA8A417164EE90057A319 /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89017164EE90057A319 /* LICENCE.txt */; };
+		D32FA8A517164EE90057A319 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89117164EE90057A319 /* README.txt */; };
+		D32FA8A617164EE90057A319 /* TRADEMARKS.txt in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89217164EE90057A319 /* TRADEMARKS.txt */; };
+		D32FA8A717164EE90057A319 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89317164EE90057A319 /* Ubuntu-B.ttf */; };
+		D32FA8A817164EE90057A319 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89417164EE90057A319 /* Ubuntu-BI.ttf */; };
+		D32FA8A917164EE90057A319 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89517164EE90057A319 /* Ubuntu-C.ttf */; };
+		D32FA8AA17164EE90057A319 /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89617164EE90057A319 /* Ubuntu-L.ttf */; };
+		D32FA8AB17164EE90057A319 /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89717164EE90057A319 /* Ubuntu-LI.ttf */; };
+		D32FA8AC17164EE90057A319 /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89817164EE90057A319 /* Ubuntu-M.ttf */; };
+		D32FA8AD17164EE90057A319 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89917164EE90057A319 /* Ubuntu-MI.ttf */; };
+		D32FA8AE17164EE90057A319 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89A17164EE90057A319 /* Ubuntu-R.ttf */; };
+		D32FA8AF17164EE90057A319 /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89B17164EE90057A319 /* Ubuntu-RI.ttf */; };
+		D32FA8B017164EE90057A319 /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89C17164EE90057A319 /* UbuntuMono-B.ttf */; };
+		D32FA8B117164EE90057A319 /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89D17164EE90057A319 /* UbuntuMono-BI.ttf */; };
+		D32FA8B217164EE90057A319 /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89E17164EE90057A319 /* UbuntuMono-R.ttf */; };
+		D32FA8B317164EE90057A319 /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32FA89F17164EE90057A319 /* UbuntuMono-RI.ttf */; };
 		DC485B1113AA0E5600F2BC70 /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */; };
 		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
 		DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */; };
@@ -48,6 +70,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D32FA88717164EDD0057A319 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
+		D32FA88817164EDD0057A319 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
+		D32FA88C17164EE90057A319 /* CONTRIBUTING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.txt; sourceTree = "<group>"; };
+		D32FA88D17164EE90057A319 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
+		D32FA88E17164EE90057A319 /* FONTLOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FONTLOG.txt; sourceTree = "<group>"; };
+		D32FA88F17164EE90057A319 /* LICENCE-FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENCE-FAQ.txt"; sourceTree = "<group>"; };
+		D32FA89017164EE90057A319 /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
+		D32FA89117164EE90057A319 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D32FA89217164EE90057A319 /* TRADEMARKS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TRADEMARKS.txt; sourceTree = "<group>"; };
+		D32FA89317164EE90057A319 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		D32FA89417164EE90057A319 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		D32FA89517164EE90057A319 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		D32FA89617164EE90057A319 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		D32FA89717164EE90057A319 /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		D32FA89817164EE90057A319 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		D32FA89917164EE90057A319 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		D32FA89A17164EE90057A319 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		D32FA89B17164EE90057A319 /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		D32FA89C17164EE90057A319 /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		D32FA89D17164EE90057A319 /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		D32FA89E17164EE90057A319 /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		D32FA89F17164EE90057A319 /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
 		DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +177,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32FA88B17164EE90057A319 /* ubuntu-font-family-0.80 */ = {
+			isa = PBXGroup;
+			children = (
+				D32FA88C17164EE90057A319 /* CONTRIBUTING.txt */,
+				D32FA88D17164EE90057A319 /* copyright.txt */,
+				D32FA88E17164EE90057A319 /* FONTLOG.txt */,
+				D32FA88F17164EE90057A319 /* LICENCE-FAQ.txt */,
+				D32FA89017164EE90057A319 /* LICENCE.txt */,
+				D32FA89117164EE90057A319 /* README.txt */,
+				D32FA89217164EE90057A319 /* TRADEMARKS.txt */,
+				D32FA89317164EE90057A319 /* Ubuntu-B.ttf */,
+				D32FA89417164EE90057A319 /* Ubuntu-BI.ttf */,
+				D32FA89517164EE90057A319 /* Ubuntu-C.ttf */,
+				D32FA89617164EE90057A319 /* Ubuntu-L.ttf */,
+				D32FA89717164EE90057A319 /* Ubuntu-LI.ttf */,
+				D32FA89817164EE90057A319 /* Ubuntu-M.ttf */,
+				D32FA89917164EE90057A319 /* Ubuntu-MI.ttf */,
+				D32FA89A17164EE90057A319 /* Ubuntu-R.ttf */,
+				D32FA89B17164EE90057A319 /* Ubuntu-RI.ttf */,
+				D32FA89C17164EE90057A319 /* UbuntuMono-B.ttf */,
+				D32FA89D17164EE90057A319 /* UbuntuMono-BI.ttf */,
+				D32FA89E17164EE90057A319 /* UbuntuMono-R.ttf */,
+				D32FA89F17164EE90057A319 /* UbuntuMono-RI.ttf */,
+			);
+			name = "ubuntu-font-family-0.80";
+			path = "Resources/ubuntu-font-family-0.80";
+			sourceTree = "<group>";
+		};
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
@@ -172,8 +244,11 @@
 		DCC1A0F813A94ED5005BD75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D32FA88B17164EE90057A319 /* ubuntu-font-family-0.80 */,
 				DCC1A0F913A94ED5005BD75D /* Default.png */,
 				DCC1A0FB13A94ED5005BD75D /* fps_images.png */,
+				D32FA88717164EDD0057A319 /* fps_images-hd.png */,
+				D32FA88817164EDD0057A319 /* fps_images-ipadhd.png */,
 				DCC1A0FD13A94ED5005BD75D /* Icon-72.png */,
 				DCC1A0FF13A94ED5005BD75D /* Icon-Small-50.png */,
 				DCC1A10113A94ED5005BD75D /* Icon-Small.png */,
@@ -337,6 +412,28 @@
 				DCC1A10813A94ED5005BD75D /* Icon@2x.png in Resources */,
 				DCC1A3AF13A94F1A005BD75D /* config.lua in Resources */,
 				DC599A43142289D70067495F /* iTunesArtwork in Resources */,
+				D32FA88917164EDD0057A319 /* fps_images-hd.png in Resources */,
+				D32FA88A17164EDD0057A319 /* fps_images-ipadhd.png in Resources */,
+				D32FA8A017164EE90057A319 /* CONTRIBUTING.txt in Resources */,
+				D32FA8A117164EE90057A319 /* copyright.txt in Resources */,
+				D32FA8A217164EE90057A319 /* FONTLOG.txt in Resources */,
+				D32FA8A317164EE90057A319 /* LICENCE-FAQ.txt in Resources */,
+				D32FA8A417164EE90057A319 /* LICENCE.txt in Resources */,
+				D32FA8A517164EE90057A319 /* README.txt in Resources */,
+				D32FA8A617164EE90057A319 /* TRADEMARKS.txt in Resources */,
+				D32FA8A717164EE90057A319 /* Ubuntu-B.ttf in Resources */,
+				D32FA8A817164EE90057A319 /* Ubuntu-BI.ttf in Resources */,
+				D32FA8A917164EE90057A319 /* Ubuntu-C.ttf in Resources */,
+				D32FA8AA17164EE90057A319 /* Ubuntu-L.ttf in Resources */,
+				D32FA8AB17164EE90057A319 /* Ubuntu-LI.ttf in Resources */,
+				D32FA8AC17164EE90057A319 /* Ubuntu-M.ttf in Resources */,
+				D32FA8AD17164EE90057A319 /* Ubuntu-MI.ttf in Resources */,
+				D32FA8AE17164EE90057A319 /* Ubuntu-R.ttf in Resources */,
+				D32FA8AF17164EE90057A319 /* Ubuntu-RI.ttf in Resources */,
+				D32FA8B017164EE90057A319 /* UbuntuMono-B.ttf in Resources */,
+				D32FA8B117164EE90057A319 /* UbuntuMono-BI.ttf in Resources */,
+				D32FA8B217164EE90057A319 /* UbuntuMono-R.ttf in Resources */,
+				D32FA8B317164EE90057A319 /* UbuntuMono-RI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

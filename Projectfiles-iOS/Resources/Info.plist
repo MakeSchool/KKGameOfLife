@@ -33,13 +33,21 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Ubuntu-R.ttf</string>
+		<string>Ubuntu-C.ttf</string>
+		<string>Ubuntu-B.ttf</string>
+	</array>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<dict>
 		<key>accelerometer</key>
 		<true/>
-		<key>opengles-1</key>
+		<key>armv7</key>
+		<true/>
+		<key>opengles-2</key>
 		<true/>
 	</dict>
 	<key>UIStatusBarHidden</key>
